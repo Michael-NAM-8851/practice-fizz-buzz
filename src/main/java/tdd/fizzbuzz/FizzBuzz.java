@@ -13,7 +13,9 @@ public class FizzBuzz {
         if (order % 7 == 0) {
             saying += "Whizz";
         }
-        if(!saying.isEmpty()) return saying;
+        if(!saying.isEmpty()) {
+            return saying;
+        }
         return Integer.toString(order);
     }
 }
